@@ -11,14 +11,19 @@ public class FemAlakzatokProgram {
     }
 
     public double osszSuly() {
-        double ossz=0;
+        double osszes=0;
         for(FemAlakzat femAlakzat:alakzat){
-
+            osszes+=femAlakzat.suly();
         }
+        return osszes;
     }
 
     public double gombokOsszSuly() {
-        return 0;
+        double osszes=0;
+        for(FemAlakzat femAlakzat:Gomb){
+            osszes+=femAlakzat.suly();
+        }
+        return osszes;
     }
 
     public FemAlakzat minV() {

@@ -9,6 +9,7 @@ public class Gomb extends FemAlakzat {
 
     @Override
     public double terfogat() {
+
         return 0;
     }
 }
